@@ -4,7 +4,7 @@ var request = require('request'),
     url = require('url'),
     events = require('events');
 
-var dld = function(uri, output_path, chunk_size, cb) {
+var dld = function(uri, output_path, chunk_size) {
   var ee = new events.EventEmitter();
   var _getHeaders = function (uri, cb) {
     request({
