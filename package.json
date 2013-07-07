@@ -1,21 +1,21 @@
 {
-    "name" : "dld",
-    "description" : "File downloader with partially-downloading support",
-    "version" : "0.0.1",
-    "author" : "Andrey Pozdnyshev <dyusss@gmail.com>",
-    "main" : "dld.js",
-    "tags" : [
-        "downloader",
-        "download",
-        "accept-ranges"
-    ],
-    "repository" : {
-        "type" : "git",
-        "url" : "http://github.com/dyuss/dld.git"
-    },
-    "dependencies" : {
-        "request" : "*",
-        "async" : "*"
-    },
-    "license" : "MIT"
+  "name" : "dld",
+  "description" : "File downloader with partially-downloading support",
+  "version" : "0.0.1",
+  "author" : "Andrey Pozdnyshev <dyusss@gmail.com>",
+  "main" : "dld.js",
+  "tags" : [
+    "downloader",
+    "download",
+    "accept-ranges"
+  ],
+  "repository" : {
+    "type" : "git",
+    "url" : "http://github.com/dyuss/dld.git"
+  },
+  "dependencies" : {
+    "request" : "*",
+    "async" : "*"
+  },
+  "license" : "MIT"
 }
