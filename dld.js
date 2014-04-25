@@ -43,10 +43,8 @@ var dld = function(uri, output_path, chunk_size) {
       throw new Error('Server not accept ranges');
     }
     var file_size = headers['content-length'];
-    var output_filename = url.parse(uri).path.split('/').slice(-1)[0];
-    if(output_path) {
-      output_filename = output_path + output_filename;
-    }
+    var output_filename = output_path;
+
     var output_file = fs.createWriteStream(output_filename + '.dld', { flags: 'a' });
     _getPosition(output_filename, function (position) {
       async.whilst(
